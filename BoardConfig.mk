@@ -64,5 +64,3 @@ TW_NO_USB_STORAGE := true
 TW_INCLUDE_JB_CRYPTO := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
-
-PRODUCT_COPY_FILES += device/lge/lgl24/recovery.fstab:recovery/root/etc/twrp.fstab

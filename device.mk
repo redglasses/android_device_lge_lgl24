@@ -49,5 +49,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/twrp.fstab:root/etc/twrp.fstab
+
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)
