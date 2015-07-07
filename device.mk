@@ -21,7 +21,7 @@ $(call inherit-product-if-exists, vendor/lge/lgl24/lgl24-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/lge/g3-common/configs/mixer_paths_qcwcn.xml:system/etc/mixer_paths.xml
+    $(LOCAL_PATH)/configs/mixer_paths.xml:system/etc/mixer_paths.xml
 
 # GPS
 PRODUCT_COPY_FILES += \
